@@ -8,3 +8,15 @@
     </div>
   </header>
 
+  <nav class="main-nav">
+    <!-- <a href="#" class="main-nav-item request-review">Request a Review</a> -->
+    <a class="main-nav-item" href="/">Home</a>
+
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+      {{if ne .Name "Post" }}
+        <a class="main-nav-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+      {{ end }}
+    {{ end }}
+
+  </nav>

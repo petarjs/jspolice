@@ -7,7 +7,7 @@
     <div class="col-md-9">
 
       <div class="row">
-        {{ range $key, $value := .Paginator.Pages }}
+        {{ range $key, $value := (where .Data.Pages "Type" "post")  }}
         {{ if lt $key 4 }}
         <div class="col-sm-6">
           {{ .Render "grid" }}

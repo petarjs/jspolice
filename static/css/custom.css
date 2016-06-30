@@ -1,3 +1,39 @@
+html,
+body {
+  font-family: 'Roboto';
+}
+
 .logo {
   width: 196px;
+}
+
+.p-action {
+  text-align: center;
+}
+
+.request-review {
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: #ffda44;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-right: 15px;
+  float: right;
+  vertical-align: middle;
+  
+}
+
+.main-nav {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 18px;
+}
+
+.main-nav-item:hover {
+  color: #ffda44;
+}
+
+.main-nav-item {
+  margin: 0 5px;
 }
