@@ -1,0 +1,11 @@
+baseurl = "http://jspolice.com/"
+languageCode = "en-us"
+title = "JS Police"
+canonifyurls = true
+paginate = 3
+
+[Params]
+  GoogleAnalyticsUserID = "UA-80126273-1"
+  Author = "Petar Slovic"
+  AuthorSite = "http://petarslovic.com"
+  disqusShortname = "jspolice"
