@@ -13,4 +13,20 @@ type = "page"
 - Document the API, the build process and the contribution process
 - Lower the barrier to enter and start contributing to an Open Source project
 
+## Who
+
+<div class="about__author">
+  <a href="http://petarslovic.com">
+    <img class="about__author__image" src="/images/petar-with-a-hat.png" alt="">
+    <div class="about__author__name">
+      Petar Slovic
+    </div>
+    <small>
+      #jswarrior
+    </small>
+  </a>
+</div>
+
+## Other info
+
 <a href="/icons">Icon Contributions</a>
