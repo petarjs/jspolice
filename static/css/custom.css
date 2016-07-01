@@ -130,6 +130,10 @@ article.grid {
   color: #000;
 }
 
+code {
+  font-size: 14px;
+}
+
 article.single .body .about__author a {
   color: #888;
   text-transform: none;
