@@ -38,7 +38,7 @@
   <section>
     <header>LatestPosts</header>
     <div>
-      {{ range first 10 (where .Data.Pages "Type" "post") }}
+      {{ range first 10 .Site.Pages }}
       {{ .Render "li" }}
       {{ end }}
     </div>

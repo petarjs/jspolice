@@ -1,7 +1,7 @@
 +++
 date = "2016-06-30T19:42:56+02:00"
 title = "Icons"
-menu = []
+menu = ['none']
 +++
 
 ## Most of the icons are provided by [FlatIcon](http://flaticon.com)
