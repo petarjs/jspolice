@@ -1,0 +1,18 @@
+<article class="grid">
+  <a href="{{ .Permalink }}">
+    <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
+    <footer>
+      <div class="date">
+        <time>{{ with .Site.Params.DateForm }}{{ $.Date.Format . }}{{ else }}{{ $.Date.Format "Mon, Jan 2, 2006" }}{{ end }}</time>
+      </div>
+      <h2 class="title">{{ .Title }}</h2>
+      <div class="summary">{{ .Description }}</div>
+      <div class="meta">
+        <a href="{{ $.Site.Params.AuthorSite }}"><img class="author__image" src="{{ $.Site.Params.AuthorImage }}" alt=""></a>
+        {{ range $key, $value := .Site.Taxonomies }}
+          {{ range first 10 $value.ByCount }}<a class="tag" href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">#{{ .Name }}</a> {{ end }}
+        {{ end }}
+      </div>
+    </footer>
+  </a>
+</article>

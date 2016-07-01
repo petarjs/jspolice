@@ -1,6 +1,117 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:900,700,400|Karla:400';
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: -0.72px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.20;
+    opacity: 1.00;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    letter-spacing: 0.00px;
+    word-spacing: 0.00px;
+    text-transform: none;
+}
+
+p, ul {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    opacity: 0.70;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: -0.30px;
+    word-spacing: -0.10px;
+    text-transform: none;
+}
+
+ul {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+article.single .body p {
+  line-height: 1.5;
+}
+
+article.grid .title {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+article .date {
+  color: #888;
+}
+
+article.grid .summary {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.meta {
+  margin-top: 15px;
+}
+
+.tag {
+  color: #888;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+
+article.grid .image {
+  border-bottom: 5px solid #FFDA44;
+}
+
+article.grid {
+  border-radius: 6px;
+}
+
+.author__image {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 html,
 body {
-  font-family: 'Roboto';
+  font-family: "Lato", sans-serif;
 }
 
 .logo {

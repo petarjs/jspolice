@@ -2,6 +2,7 @@
 date = "2016-06-30T14:04:15+02:00"
 draft = false
 title = "Introduction"
+description = "In this first post ever, we tell you what is this JSPolice thing, and why it exists."
 image = "introduction.jpg"
 type = "post"
 
@@ -20,7 +21,7 @@ toc = false
 
 JS Police - What is it? Find out about our goal in this post.
 
-# What?
+## What?
 
 **JS Police** is a blog where you can read about new and cool open source js libraries.  
 But that's not all! We investigate the library's code, and look into architecture and style.  
@@ -36,7 +37,7 @@ function makeAnArrest(repo) {
 }
 ````
 
-# Why?
+## Why?
 
 So why are we doing all this detective work?
 
@@ -52,6 +53,7 @@ Most people who create these small libs, they do it, and they move on with their
 ## Not today. The JSPolice is here.
 
 * Now, this is all in good fun and with educational value being the main purpose.  
+
 Of course we won't shame anyone who didn't write tests for his code.  
 We should all understand that behind all of these projects stand real people, who devote large amounts of time and energy into creating something others may find useful. They do it in their spare time, because they are passionate about software development and being open source. If you find sparkles of such passion in yourself, try contributing to an open source project. You'll love it!
 
