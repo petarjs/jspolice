@@ -109,6 +109,10 @@ article.grid {
   margin-right: 10px;
 }
 
+.li h2 {
+  margin: 0;
+}
+
 html,
 body {
   font-family: "Lato", sans-serif;
