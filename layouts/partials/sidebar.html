@@ -7,34 +7,6 @@
   </section>
   {{ end }}
 
-  {{ if ne (len .Site.Menus) 0 }}
-  <section>
-    <header>Menu</header>
-    <div>
-      <nav class="p-menu">
-        {{ range .Site.Menus }}
-        <ul>
-          {{ range . }}
-          <li>
-            {{ if .HasChildren }}
-            <a href="#">{{ .Pre }} {{ .Name }}</a>
-            <ul>
-              {{ range .Children }}
-              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-              {{ end }}
-            </ul>
-          </li>
-          {{ else }}
-          <li><a href="{{ .URL }}">{{ .Pre }} {{ .Name }}</a></li>
-          {{ end }}
-          {{end}}
-        </ul>
-        {{end}}
-      </nav>
-    </div>
-  </section>
-  {{ end }}
-
   <section>
     <header>LatestPosts</header>
     <div>
@@ -44,13 +16,5 @@
     </div>
   </section>
 
-  {{ range $key, $value := .Site.Taxonomies }}
-  <section>
-    <header>{{ $key | singularize }}</header>
-    <div>
-      {{ range first 10 $value.ByCount }}<a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">#{{ .Name }}</a> {{ end }}
-    </div>
-  </section>
-  {{ end }}
 
 </aside>

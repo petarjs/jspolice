@@ -45,6 +45,11 @@
         <div class="image" style="background-image: url({{ $.Site.BaseURL }}images/{{ with .Params.image }}{{ . }}{{ else }}default.jpg{{ end }});"></div>
         <div class="body">
           <h1>{{ .Title }}</h1>
+
+          {{ range $key, $value := .Site.Taxonomies }}
+              {{ range first 10 $value.ByCount }}<a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">#{{ .Name }}</a> {{ end }}
+          {{ end }}
+
           {{ .Content }}
         </div>
 

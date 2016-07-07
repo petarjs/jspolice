@@ -7,5 +7,5 @@ menu = ["main"]
 ## Say hello to a JS Policeman
 
 We can chat if you wanna.  
-Just hit me at `jspolice@petarslovic.com`.  
+Just hit me at `petar@jspolice.com`.  
 You can even send me some code to review if you wish!
