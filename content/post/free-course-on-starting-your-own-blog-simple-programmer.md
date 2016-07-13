@@ -1,6 +1,6 @@
 +++
 date = "2016-07-14T00:41:03+02:00"
-title = "Free Course on Starting Your Own Blog - SimpleProgrammer"
+title = "Free Course on Starting Your Own Blog"
 description = "Going through this course felt like watching a TV Show on Netflix."
 image = "create-blog-course.jpg"
 type = "post"
