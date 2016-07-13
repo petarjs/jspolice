@@ -11,7 +11,9 @@
     <header>LatestPosts</header>
     <div>
       {{ range first 10 .Site.Pages }}
-      {{ .Render "li" }}
+        {{ if eq .Type "post" }}
+          {{ .Render "li" }}
+        {{ end }}
       {{ end }}
     </div>
   </section>

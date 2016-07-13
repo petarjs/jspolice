@@ -1,8 +1,8 @@
 +++
 date = "2016-07-08T01:24:58+02:00"
 title = "13 Secrets to Coding Awesome JS Plugins NOT Like a Jerk"
-description = "Oftentimes, we programmers are lazy. Nothing wrong with that."
-image = "introduction.jpg"
+description = "Oftentimes, we programmers are lazy. Nothing wrong with that. But..."
+image = "plugins-dont-be-a-jerk.jpg"
 type = "post"
 
 tags = [
@@ -11,7 +11,7 @@ tags = [
 ]
 
 categories = [
-  "News",
+  "news",
 ]
 
 toc = false

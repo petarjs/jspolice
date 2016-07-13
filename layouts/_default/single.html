@@ -46,9 +46,24 @@
         <div class="body">
           <h1>{{ .Title }}</h1>
 
-          {{ range $key, $value := .Site.Taxonomies }}
-              {{ range first 10 $value.ByCount }}<a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">#{{ .Name }}</a> {{ end }}
-          {{ end }}
+          <a href="http://petarslovic.com" class="profile--small">
+            <img class="profile__img" src="/images/petar.png" alt="">
+            <span class="profile__author">Petar Slovic</span>
+          </a>
+          
+          <div class="tags">
+            {{ with .Params.categories }}
+              {{ range . }}
+                <a class="tag" href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}">#{{ . }}</a>
+              {{ end }}
+            {{ end }}
+            
+            {{ with .Params.tags }}
+              {{ range . }}
+                <a class="tag" href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
+              {{ end }}
+            {{ end}}
+          </div>
 
           {{ .Content }}
         </div>

@@ -12,7 +12,7 @@ tags = [
 ]
 
 categories = [
-  "News",
+  "news",
 ]
 
 toc = false
