@@ -27,5 +27,6 @@ To investigate a js library, we first go to it's GitHub page.
 - Is there .jshint, .eslint or some other linting tool? 3pts  
 - Is there a `dist` folder or equivalent? 1pts  
 - Is there a minified version of the library? 1pts  
+- 
 
 ## TBC
