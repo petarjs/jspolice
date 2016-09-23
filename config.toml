@@ -1,6 +1,6 @@
 baseurl = "http://jspolice.com/"
 languageCode = "en-us"
-title = "JS Police 1"
+title = "JS Police 123"
 theme = "hugo_theme_robust"
 canonifyurls = true
 paginate = 3
